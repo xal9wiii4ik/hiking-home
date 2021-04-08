@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	min-height: 100vh;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+	vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+
+.item {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+  border: solid black;
+
+	border-left: 3px;
+	border-bottom: 3px;
+  display: inline-block;
+  padding: 20px;
+	background-color: black;
+	transform: rotate(45deg);
+}

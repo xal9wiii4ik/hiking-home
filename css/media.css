@@ -1,0 +1,289 @@
+@media all and (max-width: 1025.01px) {
+  .single__subtitle {
+    width: 25%;
+  }
+}
+
+@media all and (max-width: 910.01px) {
+
+  .header__list__item:not(:last-child)  /*все кроме ласт чайлда*/ {
+
+    display: none ;
+  }
+
+  header .header__nav{
+    width: auto;
+  }
+
+  .header__list__item:last-child {
+    display: block;
+  }
+
+  .burger--open {
+    display: block;
+  }
+
+  .bootstrap__man {
+    display: none;
+  }
+
+  .bootstrap__about {
+    width: 80%;
+  }
+
+  .work__item:nth-child(1n+3) {
+    display: none;
+  }
+
+  .work__item {
+    width: 50%;
+  }
+
+  .travel__item:nth-child(2) {
+    display: none;
+  }
+
+  .travel__item:nth-child(3) {
+    display: none;
+  }
+
+  .travel__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio__links {
+    margin: 0 60px;
+  }
+
+  .portfolio__brands {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .portfolio__brands__second {
+    display: none;
+  }
+
+  .portfolio__brands__third {
+    display: none;
+  }
+
+  .portfolio__brands__fours {
+    display: none;
+  }
+
+  #testimonials .footer__copyright__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__copyright__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials__review__item {
+    width: 100%;
+  }
+
+  .testimonials__review__item:last-child {
+    display: none;
+  }
+
+  .single__subtitle {
+    width: 35%;
+  }
+
+}
+
+@media all and (max-width: 834.01px) {
+  .blog__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__item__second {
+    display: none;
+  }
+}
+
+@media all and (max-width: 837.01px) {
+  .footer__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__link {
+    display: none;
+  }
+}
+
+@media all and (max-width: 767.01px) {
+  #single {
+    display: none;
+  }
+}
+
+@media all and (max-width: 737.01px) {
+  .portfolio__links {
+    margin: 0 40px;
+  }
+}
+
+@media all and (max-width: 697.01px) {
+  .portfolio__links {
+    margin: 0 30px;
+  }
+
+  .portfolio__pictures {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio__pictures__s {
+    display: none;
+  }
+
+  .home__form {
+    width: 60%;
+  }
+
+  .about__txt {
+    padding: 60px 100px 115px 100px;
+  }
+
+  .contact__items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .contact__items__item__first {
+  	padding-left: 0;
+  }
+
+  .contact__items__item__second {
+  	padding-left: 0;
+  }
+}
+
+@media all and (max-width: 657.01px) {
+  .portfolio__links {
+    margin: 0 ;
+  }
+
+  .about__txt {
+    padding: 60px 80px 115px 80px;
+  }
+}
+
+@media all and (max-width: 617.01px) {
+  .portfolio__link:nth-child(1n+4) {
+    display: none;
+  }
+
+  .portfolio__link {
+    margin: 0 30px;
+  }
+
+  .about__txt {
+    padding: 60px 60px 115px 60px;
+  }
+}
+
+@media all and (max-width: 600.01px) {
+  .portfolio__link {
+    margin: 0 20px;
+  }
+
+  .home__form {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 575.01px) {
+  .work__item:nth-child(2) {
+    display: none;
+  }
+
+  .work__items {
+    justify-content: center;
+  }
+
+  .work__item {
+    width: 60%;
+  }
+
+  .footer__items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .footer__contact {
+    padding: 0;
+  }
+
+  .blog__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blog__item__third {
+    display: none;
+  }
+}
+
+@media all and (max-width: 537.01px) {
+  .portfolio__pictures__t {
+    display: none;
+  }
+
+  .portfolio__pictures {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .portfolio__pictures__f {
+    padding: 0;
+  }
+
+  .portfolio__link {
+    margin: 0 10px;
+  }
+}
+
+@media all and (max-width: 527.01px) {
+  .work__item {
+    width: 71%;
+  }
+}
+
+@media all and (max-width: 500.01px) {
+  .travel__items {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 80px;
+  }
+
+  .portfolio__links {
+    display: none;
+  }
+
+  .travel__item__fourth {
+    display: none;
+  }
+
+  .about__txt {
+    padding: 60px 40px 115px 40px;
+  }
+}
+
+@media all and (max-width: 467.01px) {
+  .work__item {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 425.01px) {
+  .work__item {
+    width: 89%;
+  }
+
+  .home__form {
+    width: 80%;
+  }
+
+  .about__txt {
+    padding: 60px 20px 115px 20px;
+  }
+}
